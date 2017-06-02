@@ -1,0 +1,127 @@
+.slide {
+
+}
+
+#cover h2 {
+	margin:30px 0 0;
+	color:#FFF;
+	text-align:center;
+	font-size:70px;
+}
+#cover p {
+	margin:10px 0 0;
+	text-align:center;
+	color:#FFF;
+	font-style:italic;
+	font-size:20px;
+}
+#cover p a {
+	color:#FFF;
+}
+
+ #see-more h2 {
+	 font-size:100px
+ }
+#see-more img {
+	width:0.72em;
+	height:0.72em;
+}
+
+/*---------*/
+
+@font-face {
+	font-family: Roboto Slab;
+	src: url('RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+	font-family: Roboto Slab;
+	font-weight: bold;
+	src: url('RobotoSlab-Bold.ttf');
+}
+
+* {
+	outline: none;
+}
+
+html {
+	background: black url('bg-full.png') no-repeat 50% 50%;
+	background-attachment: fixed;
+	font-size: 1rem;
+	font-family: 'Roboto Slab', serif;
+	text-shadow:
+		-1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+}
+
+.shower.full, .shower.list {
+	background: none;
+}
+
+.shower.list .slide {
+	border: 2px dashed gray;
+	background: rgba(0,0,0,0.2);
+}
+
+.shower.full .slide {
+	background: none;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.slide h2, .caption {
+	font: inherit;
+	font-size: 120%;
+	color: white;
+	font-weight: bold;
+	text-shadow:
+		1px 1px 2px black,
+		0 0 30px #aa0101,
+		0 0 1px red;
+}
+
+.caption h1, .caption p {
+	font-family: 'Roboto Slab', serif;
+}
+
+.slide a {
+	color: white;
+}
+
+#cover h2 {
+	font-size: 400%;
+	font-weight: bold;
+	text-shadow:
+		1px 1px 2px black,
+		0 0 30px #aa0101,
+		0 0 1px red;
+	margin-bottom: -2rem;
+}
+
+#cover p {
+	font-size: 120%;
+	font-weight: bold;
+	font-style: normal;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	text-shadow:
+	1px 1px 2px black,
+	0 0 10px #aa0101,
+	0 0 5px red;
+}
+
+a:hover, a:active {
+	text-shadow:
+	1px 1px 2px black,
+	0 0 30px #aa0101,
+	0 0 1px red;
+}
+
+.progress {
+	border: 10px solid #aa0101;
+}
