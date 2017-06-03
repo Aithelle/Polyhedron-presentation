@@ -82,6 +82,11 @@ html {
 		0 0 1px red;
 }
 
+.slide h2 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
 .caption h1, .caption p {
 	font-family: 'Roboto Slab', serif;
 }
@@ -145,4 +150,8 @@ img {
 	border: 1px solid gray;
 	max-height: 80%;
 	max-width: 80%;
+}
+
+.center {
+	text-align: center;
 }
