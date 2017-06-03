@@ -58,6 +58,7 @@ html {
 
 .shower.full, .shower.list {
 	background: none;
+	color: white;
 }
 
 .shower.list .slide {
@@ -86,8 +87,9 @@ html {
 	font-family: 'Roboto Slab', serif;
 }
 
-.slide a {
+.slide a, .slide .shout a {
 	color: white;
+	background: none;
 }
 
 #cover h2 {
@@ -109,6 +111,7 @@ html {
 a {
 	color: white;
 	text-decoration: none;
+	border-bottom: 2px dashed white;
 	text-shadow:
 	1px 1px 2px black,
 	0 0 10px #aa0101,
@@ -124,4 +127,12 @@ a:hover, a:active {
 
 .progress {
 	border: 10px solid #aa0101;
+}
+
+hr {
+	border: 1px dashed gray;
+}
+
+.slide pre code.mark:not(:only-child) {
+	background: rgba(88,90,94,.3);
 }
