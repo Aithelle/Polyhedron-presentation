@@ -47,7 +47,6 @@
 html {
 	background: black url('bg-full.png') no-repeat 50% 50%;
 	background-attachment: fixed;
-	font-size: 1rem;
 	font-family: 'Roboto Slab', serif;
 	text-shadow:
 		-1px -1px 0 black,
@@ -135,4 +134,15 @@ hr {
 
 .slide pre code.mark:not(:only-child) {
 	background: rgba(88,90,94,.3);
+}
+
+.accented {
+	color: #aa0101;
+}
+
+img {
+	margin: 1rem;
+	border: 1px solid gray;
+	max-height: 80%;
+	max-width: 80%;
 }
